@@ -1,6 +1,6 @@
 # SKYTALKS
-
-Website demo for SKYTALKS built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+ 
+SKYTALKS demo website built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
 
 ## Getting started
 
@@ -24,4 +24,5 @@ You can start editing by modifying the files in the `/src` folder. The site will
 
 ## License
 
-The SKYTALKS website is open for contribution, but the source code itself uses a commercial template and is therefore not licensed under any open-source license. Forking this project as a base for your own projects is not permitted under the license of the original template.
+The SKYTALKS demo website is open for contribution, but the source code itself uses a commercial template and is therefore not licensed under any open-source license. 
+Forking this project as a base for your own projects is not permitted under the license of the original template.
