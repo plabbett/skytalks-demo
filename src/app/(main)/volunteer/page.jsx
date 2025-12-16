@@ -1,4 +1,6 @@
 import { Container } from '@/components/Container'
+import {Well} from "@/components/Well";
+import {CalendarIcon, InformationCircleIcon} from "@heroicons/react/24/outline"
 
 export const metadata = {
   title: 'Volunteer',
@@ -14,11 +16,10 @@ export default function Volunteer() {
             Volunteer
           </h1>
           <div className="mt-6 space-y-6 text-lg text-indigo-100">
-            <div className="rounded-lg border border-indigo-500/30 bg-indigo-950/50 p-4">
-              <p className="font-semibold text-indigo-300">
-                Volunteer applications are currently closed. Check back Summer 2026 for SKYTALKS XVI!
-              </p>
-            </div>
+
+            <Well>
+              <CalendarIcon className="size-8 text-indigo-600 px-1" /> Volunteer applications are currently closed. Check back Summer 2026!
+            </Well>
 
             <section>
               <h2 className="font-display text-2xl font-semibold tracking-tight text-indigo-400">

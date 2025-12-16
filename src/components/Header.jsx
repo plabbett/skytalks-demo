@@ -7,16 +7,20 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 
+const splitAfter = 5;
+
 const menuLinks = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'SKYTALKS History' },
-  { href: '/volunteer', label: 'Volunteer at SKYTALKS' },
-  { href: '/cfp', label: 'Call for Presentations' },
   { href: '/bucket', label: 'The Donation Bucket' },
+  { href: '/cfp', label: 'Call for Presentations' },
+  { href: '/volunteer', label: 'Volunteer at SKYTALKS' },
 
-  { href: '/code-of-conduct', label: 'Code of Conduct' },
   { href: '/press-policy', label: 'Press Policy' },
+  { href: '/code-of-conduct', label: 'Code of Conduct' },
   { href: '/accessibility', label: 'Event Accessibility' },
+  { href: '/data-retention-policy', label: 'Data Retention Policy' },
+
 ]
 
 export function Header() {
@@ -57,7 +61,7 @@ export function Header() {
               <div className="p-2">
                 {menuLinks.map((link, index) => (
                   <div key={link.href}>
-                    {index === 5 && (
+                    {index === splitAfter && (
                       <div className="my-2 border-t border-indigo-500/30" />
                     )}
                     <Link

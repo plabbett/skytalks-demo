@@ -14,6 +14,7 @@ export default function Accessibility() {
           <h1 className="font-display text-4xl font-bold tracking-tighter text-indigo-400 sm:text-5xl">
             Event Accessibility
           </h1>
+          <p className="mt-2 text-sm text-indigo-200">Last updated: December 15, 2025</p>
 
           <div className="mt-6 space-y-6 text-lg text-indigo-100">
             <section>
@@ -39,7 +40,8 @@ export default function Accessibility() {
                 Accommodations
               </h2>
               <p className="mt-4">
-                If our device policy creates accessibility difficulties for you, our volunteers are available to assist. We can work with you on individual cases.
+                If our device policy creates accessibility difficulties for you, our volunteers are available to assist.
+                We can work with you on individual cases.
               </p>
             </section>
 

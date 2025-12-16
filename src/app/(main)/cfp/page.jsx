@@ -17,7 +17,7 @@ export default function CallForPresentations() {
           </h1>
           <div className="mt-6 space-y-6 text-lg text-indigo-100">
             <Well className="my-4">
-              <InformationCircleIcon className="size-8 text-indigo-600 px-1" /> The CFP is closed. Check back in Spring/Summer 2026 for updates!
+              <InformationCircleIcon className="size-8 text-indigo-600 px-1" /> The CFP for 2026 is not open yet. Check back in Spring of 2026 for updates!
             </Well>
 
             <section>
