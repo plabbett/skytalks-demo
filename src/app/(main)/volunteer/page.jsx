@@ -1,6 +1,7 @@
 import { Container } from '@/components/Container'
 import {Well} from "@/components/Well";
 import {CalendarIcon, InformationCircleIcon} from "@heroicons/react/24/outline"
+import Link from "next/link";
 
 export const metadata = {
   title: 'Volunteer',
@@ -64,9 +65,9 @@ export default function Volunteer() {
                 Requirements
               </h2>
               <p className="mt-4">
-                Volunteers should be able to commit to at least one shift during the event.
+                Volunteers should be able to commit to at least two shifts during the event.
                 Prior experience is not required &mdash; just enthusiasm and reliability.
-                All volunteers must adhere to our code of conduct.
+                All volunteers must adhere to our <Link className="text-indigo-400 hover:text-indigo-600" href="/code-of-conduct">code of conduct</Link>.
               </p>
             </section>
           </div>

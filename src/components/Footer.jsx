@@ -5,14 +5,16 @@ import { Logo } from '@/components/Logo'
 const mainLinks = [
   { href: '/about', label: 'About' },
   { href: '/cfp', label: 'CFP' },
+  { href: '/blog', label: 'Blog' },
   { href: '/volunteer', label: 'Volunteer' },
   { href: '/bucket', label: 'The Bucket' },
 ]
 
 const policyLinks = [
-  { href: '/code-of-conduct', label: 'Code of Conduct' },
   { href: '/press-policy', label: 'Press Policy' },
-  { href: '/accessibility', label: 'Accessibility' },
+  { href: '/code-of-conduct', label: 'Code of Conduct' },
+  { href: '/accessibility', label: 'Event Accessibility' },
+  { href: '/data-retention-policy', label: 'Data Retention' },
 ]
 
 export function Footer() {
@@ -42,7 +44,7 @@ export function Footer() {
             </Link>
           ))}
         </nav>
-        <p className="text-base text-indigo-600">
+        <p className="text-base text-indigo-400">
           Copyright &copy; {new Date().getFullYear()} SKYTALKS. All rights reserved.
         </p>
       </Container>

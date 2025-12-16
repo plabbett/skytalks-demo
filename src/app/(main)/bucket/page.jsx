@@ -55,10 +55,10 @@ export default function Bucket() {
 
             <section>
               <h2 className="font-display text-2xl font-semibold tracking-tight text-indigo-400">
-                Donate Online
+                How To Donate
               </h2>
               <p className="mt-4">
-                Can&apos;t make it to the event or prefer digital donations?
+                To donate, attend a SKYTALK and  <strong className="text-indigo-500">put your money in the bucket</strong>.
               </p>
               <Well className={'my-4'}>
                 <BanknotesIcon className="size-8 text-indigo-500 px-1" /> At this time, we only accept donations at our in-person event.

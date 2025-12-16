@@ -2,7 +2,25 @@
  
 SKYTALKS demo website built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
 
-## Getting started
+## Blog Posts
+
+To add a new blog post, create a new Markdown file in `src/content/blog`, such as `src/content/blog/my-great-post.md`
+
+Then edit your `my-great-post.md` file with Markdown. You can add blog metadata using the [Frontmatter format](https://www.markdownlang.com/advanced/frontmatter.html).
+
+```markdown
+---
+title: My Great Post
+description: This shows as the description for the blog post in lists and in metadata.
+date: YYYY-MM-DD
+author: Author name (or use SKYTALKS Team)
+---
+
+Your **markdown-based** [blog post](/blog) content goes here!
+
+```
+
+## Running Locally
 
 To get started, first install the dependencies:
 

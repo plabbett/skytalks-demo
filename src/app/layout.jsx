@@ -3,6 +3,7 @@ import clsx from 'clsx'
 
 import '@/styles/tailwind.css'
 import { InteractiveBackground } from '@/components/InteractiveBackground'
+import { siteConfig } from '@/lib/siteConfig'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -26,6 +27,11 @@ export const metadata = {
     'At SKYTALKS you\'ll learn about the latest dark-patterns and anti-practices that need exposed, especially the kind that runs the risk of offending a company.',
   icons: {
     icon: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y="1em" font-size="80">%F0%9F%98%B6%E2%80%8D%F0%9F%8C%AB%EF%B8%8F</text></svg>',
+  },
+  alternates: {
+    types: {
+      'application/rss+xml': `${siteConfig.siteUrl}/feed`,
+    },
   },
 }
 

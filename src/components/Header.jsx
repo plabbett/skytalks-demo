@@ -7,19 +7,16 @@ import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 
-const splitAfter = 5;
+const splitAfter = [3];
 
 const menuLinks = [
   { href: '/', label: 'Home' },
-  { href: '/about', label: 'SKYTALKS History' },
-  { href: '/bucket', label: 'The Donation Bucket' },
-  { href: '/cfp', label: 'Call for Presentations' },
-  { href: '/volunteer', label: 'Volunteer at SKYTALKS' },
+  { href: '/blog', label: 'Blog' },
+  { href: '/about', label: 'About' },
 
-  { href: '/press-policy', label: 'Press Policy' },
-  { href: '/code-of-conduct', label: 'Code of Conduct' },
-  { href: '/accessibility', label: 'Event Accessibility' },
-  { href: '/data-retention-policy', label: 'Data Retention Policy' },
+  { href: '/cfp', label: 'CFP' },
+  { href: '/volunteer', label: 'Volunteer' },
+  { href: '/bucket', label: 'The Bucket' },
 
 ]
 
@@ -61,7 +58,7 @@ export function Header() {
               <div className="p-2">
                 {menuLinks.map((link, index) => (
                   <div key={link.href}>
-                    {index === splitAfter && (
+                    {splitAfter.includes(index) && (
                       <div className="my-2 border-t border-indigo-500/30" />
                     )}
                     <Link
